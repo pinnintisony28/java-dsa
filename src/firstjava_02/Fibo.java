@@ -10,9 +10,11 @@ public class Fibo {
        while (count<=n){
           int temp=b;
           b=a+b;
+          System.out.print(b+" ");
           a=temp;
           count++;
        } 
        System.out.println(b);
     }
+    
 }
